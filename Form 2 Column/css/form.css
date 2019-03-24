@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Vazir';
+    direction: rtl;
+}
+div.row{
+    width: 55%;
+    height: 100%;
+    margin: auto;
+    border: 1px solid white;
+}
+div.innerRow{
+    display: flex;
+    -webkit-box-flex: flex;
+    height: 80%;
+    border: 1px solid white;
+    font-size: medium;
+}
+.column.right{
+    flex: 65%;
+    padding: 15px;
+    border: 1px solid white;
+}
+.column.left{
+    flex: 35%;
+    padding: 15px;
+    border: 1px solid white;
+}
+div.header{
+    padding: 15px;
+    text-align: center;
+}
+#lorem{
+    font-weight: normal;
+}
+div.footer{
+    padding: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+span{
+    font-size: small;
+    color: gray;
+}
+input, select{
+    font-size: medium;
+}
+h1#yourAddress{
+    margin-bottom: 150px;
+}
+div#fandlName{
+    display: flex;
+    margin-bottom: 10px;
+}
+div#firstName{
+    flex: 1;
+    margin-left: 20px;
+}
+div#lastName{
+    flex: 1;
+}
+input#firstNameBox, input#lastNameBox{
+    margin-top: 10px;
+    padding-right: 5px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #dbd9d9;
+    border-radius: 3px;
+}
+div#userName{
+    display: flex;
+    margin-bottom: 10px;
+}
+div#signDiv{
+    flex: 10%;
+}
+div#userNameBoxDiv{
+    flex: 90%;
+}
+input#sign{
+    margin-top: 10px;
+    border: 1px solid #dbd9d9;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    width: 100%;
+    height: 30px;
+}
+input#userNameBox{
+    margin-top: 10px;
+    border: 1px solid #dbd9d9;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding-right: 5px;
+    width: 100%;
+    height: 30px;
+}
+input#emailBox, input#addressBox1, input#addressBox2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 5px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #dbd9d9;
+    width: 100%;
+    border-radius: 3px;
+}
+div#three{
+    display: flex;
+    margin-bottom: 10px;
+}
+div#country{
+    flex: 50%;
+    margin-left: 20px;
+}
+div#province{
+    flex: 30%;
+    margin-left: 20px;
+}
+div#city{
+    flex: 20%;
+}
+select#count{
+    margin-top: 10px;
+    padding-right: 5px;
+    border: 1px solid #dbd9d9;
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+}
+select#prov{
+    margin-top: 10px;
+    padding-right: 5px;
+    border: 1px solid #dbd9d9;
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+}
+input#cit{
+    margin-top: 10px;
+    padding-right: 5px;
+    border: 1px solid #dbd9d9;
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.checkbox, .checkmark{
+    float: left;
+}
+#paymentMethod{
+    margin-bottom: 10px;
+}
+div#cardHolder{
+    display: flex;
+    margin-top: 10px;
+}
+div#cardHolderName{
+    flex: 1;
+    margin-left: 20px;
+}
+div#cardNumber{
+    flex: 1;
+}
+input#cardHolderBox, input#cardNumberBox{
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #dbd9d9;
+    border-radius: 3px;
+}
+input#register{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid #007BFF;
+    background-color: #007BFF;
+    border-radius: 3px;
+    color: white;
+    font-size: large;
+}
+table#basket{
+    width: 100%;
+    margin-bottom: 15px;
+}
+table#basket td:nth-child(even){
+    float: left;
+}
+div#number{
+    background-color: #FFC107;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #FFC107;
+    border-radius: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+table#product{
+    width: 100%;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+}
+table#product tr{
+    border: 1px solid #dbd9d9;
+    border-radius: 3px;
+    padding: 10px;
+}
+table#product tr:nth-child(4){
+    color: #2AAA83;
+    background-color: rgba(230, 227, 227, 0.733);
+}
+table#product td:nth-child(even){
+    color: grey;
+}
+table#product td{
+    padding: 10px;
+}
+p.summary{
+    font-size: smaller;
+    color: grey;
+}
+p#summaryx{
+    font-size: smaller;
+}
+div#discountDiv{
+    display: flex;
+}
+div#codeDiv{
+    flex: 80%;
+}
+div#submitDiv{
+    flex: 20%;
+}
+#code{
+    width: 100%;
+    height: 35px;
+    border: 1px solid rgb(235, 231, 231);
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    padding-right: 5px;
+}
+#submit{
+    width: 100%;
+    height: 35px;
+    background-color: #6C757D;
+    border: 1px solid #6C757D;
+    color: white;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+#discountForm{
+    width: 100%;
+    border: 1px solid rgb(235, 231, 231);
+    padding: 5px;
+}
+@media(max-width:500px){
+    .row, .innerRow{
+        flex-direction: column;
+}}

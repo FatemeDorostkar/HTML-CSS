@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>فرم خرید</title>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="Font/font-face.css">
+    <link rel="stylesheet" href="Farsi-Digits/farsi-digits.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="header">
+            <h1>فرم خرید</h1>
+            <h4 id="lorem">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+            </h4>
+        </div>
+        <div class="innerRow">
+            <div class="column right">
+                <form action="POST">
+                    <h2 id="yourAddress">آدرس شما</h2>
+                    <div id="fandlName">
+                        <div id="firstName">
+                            نام
+                            <br>
+                            <input type="text" name="fName" id="firstNameBox">
+                        </div>
+                        <div id="lastName">
+                            نام خانوادگی
+                            <br>
+                            <input type="text" name="lName" id="lastNameBox">
+                        </div>
+                    </div>
+                    <div>
+                        نام کاربری
+                        <br>
+                        <div id="userName">
+                            <div id="signDiv"><input type="button" value="@" id="sign"></div>
+                            <div id="userNameBoxDiv"><input type="text" name="uName" id="userNameBox"></div>
+                        </div>
+                    </div>
+                    ایمیل <span class="optional">(انتخابی)</span>
+                    <br>
+                    <input type="email" name="email" id="emailBox">
+                    <br>
+                    آدرس
+                    <br>
+                    <input type="text" name="address" id="addressBox1" placeholder="مازندران، بابل">
+                    <br>
+                    آدرس دوم <span class="optional">(انتخابی)</span>
+                    <br>
+                    <input type="text" name="address2" id="addressBox2" placeholder="تهران، تهران">
+                    <div id="three">
+                        <div id="country">
+                        کشور
+                        <br>
+                        <select name="country" id="count">
+                            <option>انتخاب کنید ...</option>
+                            <option value="Iran">ایران</option>
+                        </select>
+                        </div>
+                        <div id="province">
+                        استان
+                        <br>
+                        <select name="Province" id="prov">
+                            <option>انتخاب کنید ...</option>
+                            <option value="Tehran">تهران</option>
+                            <option value="Alborz">البرز</option>
+                            <option value="Gilan">گیلان</option>
+                            <option value="Mazandaran">مازندران</option>
+                            <option value="Golestan">گلستان</option>
+                        </select>
+                        </div>
+                        <div id="city">
+                        شهر
+                        <br>
+                        <input type="text" name="city" id="cit" placeholder="بابل">
+                        </div>
+                    </div>
+                    <hr>
+                    قبل از ارسال سفارش برای هماهنگی تماس گرفته شود
+                    <input type="checkbox" name="" id="" class="checkbox">
+                    <br>
+                    ذخیره سازی اطلاعات برای تماس بعدی
+                    <input type="checkbox" name="" id="" class="checkbox">
+                    <hr>
+                    <h2 id="paymentMethod">نوع پرداخت</h2>
+                    بانک ملت
+                    <input class="checkmark" type="radio" name="Payment" value="mellat" checked>
+                    <br>
+                    بانک آینده
+                    <input class="checkmark" type="radio" name="Payment" value="ayandeh">
+                    <br>
+                    زرین پال
+                    <input class="checkmark" type="radio" name="Payment" value="zarinPal">
+                    <br>
+                    <div id="cardHolder">
+                        <div id="cardHolderName">
+                        نام دارنده کارت
+                        <br>
+                        <input type="text" name="cardHolder" id="cardHolderBox">
+                        </div>
+                        <div id="cardNumber">
+                        شماره کارت
+                        <br>
+                        <input type="text" name="cardNumber" id="cardNumberBox">
+                        </div>
+                    </div>
+                    <br>
+                    <span>لطفا نام کامل دارنده کارت را به فارسی وارد کنید.</span>
+                    <hr>
+                    <input id="register" type="submit" value="ادامه و ثبت خرید">
+                </form>
+            </div>
+            <div class="column left">
+                <table id="basket">
+                    <tr>
+                        <td>
+                            <h2>سبد خرید شما</h2>
+                        </td>
+                        <td>
+                            <div id="number">3</div>
+                    </tr>
+                </table>
+                <table id="product">
+                    <tr>
+                        <td>
+                            <p>عنوان محصول اول</p>
+                            <p class="summary">توضیح مختصر</p>
+                        </td>
+                        <td>12 دلار</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>عنوان محصول دوم</p>
+                            <p class="summary">توضیح مختصر</p>
+                        </td>
+                        <td>12 دلار</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>عنوان محصول سوم</p>
+                            <p class="summary">توضیح مختصر</p>
+                        </td>
+                        <td>24 دلار</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>عنوان محصول چهارم</p>
+                            <p id="summaryx">توضیح مختصر</p>
+                        </td>
+                        <td>50 دلار</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>جمع (تومان)</p>
+                        </td>
+                        <td>40 دلار</td>
+                    </tr>
+                </table>
+                <form id="discountForm" action="POST">
+                    <div id="discountDiv">
+                        <div id="codeDiv"><input id="code" type="text" name="discount" placeholder="کد تخفیف"></div>
+                        <div id="submitDiv"><input id="submit" type="submit" value="اعمال"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <p>مجله آموزش 1396-1397 &copy;</p>
+            <a href="">حریم خصوصی</a>
+            <a href="">قوانین</a>
+        </div>
+    </div>
+</body>
+
+</html>
