@@ -1,0 +1,76 @@
+
+*{
+direction: rtl;
+text-align: center;
+font-family: Vazir;
+margin:0px;
+padding: 0px;
+background-color:  #f0f0f0;
+}
+main{
+    width: 34%;
+    height: 680px;
+    margin-right: 33%;
+    margin-left: 33%;
+    margin-top: 30px;
+    background-color: white;  
+    border: 1px solid #b4b4b4;
+    border-radius: 10px;
+}
+h1{
+    background-color: white;
+    padding-top: 30px;
+    margin-top: 10px; 
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+i{
+    background-color: white;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+#Email{
+    background-color: white;
+    width: 350px;
+    height: 30px; 
+    text-align: right;
+    font-size: medium;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: 2px solid #b4b4b4;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-right: 10px;
+}
+#Password{
+    background-color: white;
+    width: 350px;
+    height: 30px; 
+    text-align: right;
+    font-size: medium;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: 2px solid #b4b4b4;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-right: 10px;
+}
+#Register{
+    background-color: #8859FE;
+    color: white;
+    width: 250px;
+    height: 40px; 
+    text-align: center;
+    border: 2px solid #8859FE;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+a{
+    background-color: white; 
+}
+#create{
+    text-decoration: none;
+}

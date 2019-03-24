@@ -1,0 +1,30 @@
+
+*{
+direction: rtl;
+text-align: center;
+font-family: Vazir;
+margin:0px;
+background-color: #81C784;
+}
+#Email{
+width: 400px;
+background-color: whitesmoke;
+border: 2px solid grey;
+}
+#Register{
+    background-color: gold;
+    border: 2px solid grey;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-right: -5px;
+}
+#Text{
+    background-color: gold;
+    border: 2px solid grey;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: -5px;
+}
+h1{
+    color: #1B5E20;
+}

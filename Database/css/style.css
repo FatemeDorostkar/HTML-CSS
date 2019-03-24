@@ -1,0 +1,133 @@
+*{
+    box-sizing:border-box;
+    direction: rtl;
+    font-family: Vazir;
+    color: #2F5497;
+}
+#header{
+    text-align:center;
+    background-color: gold;
+    height: 100px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bolder;
+}
+#centre{
+    height: 550px;
+    margin-right: 50px;
+    text-align:center;
+}
+#columnRight,#columnMain,#columnLeft{
+    background-color: white;
+    float: right;
+    height:550px;
+}
+#columnRight,#columnLeft{
+    width:20%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#columnMain{
+    padding-top: 30px;
+}
+#columnLeft{
+    text-align: right;
+    padding-right: 50px;
+}
+#columnRight{
+    text-align:center
+}
+#image{
+    width: 100%;
+}
+#footer{
+    height: 75px;
+    background-color: white;
+    text-align:center;
+    padding-top: 0px;
+    border:1px solid rgba(0,0,0,.5);
+}
+.foot{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+#add{
+    width: 100%;
+}
+#Email{
+    background-color: white;
+    width: 250px;
+    height: 30px; 
+    text-align: right;
+    font-size: medium;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: 2px solid #b4b4b4;
+    margin-bottom: 40px;
+    padding-right: 10px;
+}
+#Password{
+    background-color: white;
+    width: 250px;
+    height: 30px; 
+    text-align: right;
+    font-size: medium;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: 2px solid #b4b4b4;
+    margin-bottom: 40px;
+    padding-right: 10px;
+}
+#enter{
+    background-color: gold;
+    width: 200px;
+    height: 40px; 
+    text-align: center;
+    border: 2px solid gold;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+#create{
+    text-decoration: none;
+    font-weight: bolder;
+    border: 2px solid gold;
+    border-radius: 10px;
+}
+#newsletter{
+    background-color: white;
+    width: 250px;
+    height: 30px; 
+    text-align: right;
+    font-size: medium;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: 2px solid #b4b4b4;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+#register{
+    background-color: gold;
+    width: 100px;
+    height: 40px; 
+    text-align: center;
+    border: 2px solid gold;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#vote{
+    background-color: gold;
+    width: 100px;
+    height: 40px; 
+    text-align: center;
+    border: 2px solid gold;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+td{
+    padding: 15px;
+}
